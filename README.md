@@ -69,7 +69,7 @@ flame-seg-class/
 ## Kurulum
 
 ```bash
-git clone https://github.com/KULLANICI_ADIN/flame-seg-class.git
+git clone https://github.com/BatuFstk/flame-seg-class.git
 cd flame-seg-class
 pip install -r requirements.txt
 ```
