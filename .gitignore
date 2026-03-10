@@ -1,0 +1,24 @@
+# Veri dosyaları (büyük zip'ler)
+data/
+
+# Eğitilmiş modeller (büyük .pth dosyaları)
+checkpoints/
+
+# TensorBoard logları
+runs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Gradio cache
+flagged/
