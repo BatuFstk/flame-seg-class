@@ -14,16 +14,37 @@ Bu projede **FLAME (Fire Luminosity Airborne-based Machine learning Evaluation)*
 - **Siniflandirma verisi**: Fire / No_Fire etiketli 254x254 piksel goruntular
 - **Segmentasyon verisi**: 3840x2160 piksel goruntular + binary yangin maskeleri
 
+### Siniflandirma Verisi
+
+| Set | Fire | No_Fire | Toplam | Boyut |
+|-----|:----:|:-------:|:------:|:-----:|
+| **Training** | 25,018 | 14,357 | 39,375 | 1.2 GB |
+| **Test** | 5,137 | 3,480 | 8,617 | 287 MB |
+
+- Gorsel boyutu: **254x254** piksel (JPG)
+- Sinif dagilimi: Fire %63 / No_Fire %37
+
+### Segmentasyon Verisi
+
+| Veri | Adet | Boyut |
+|------|:----:|:-----:|
+| **RGB Goruntuleri** | 2,003 | 5.1 GB |
+| **Binary Maskeler** | 2,003 | 9 MB |
+
+- Gorsel boyutu: **3840x2160** piksel (4K), egitimde 256x256'ya resize edilir
+- Goruntu format: JPG / Maske format: PNG
+- Maske degerleri: 0 = arka plan, 1 = yangin
+
 ### Veri Seti Dosyalari
 
-Asagidaki dosyalari indirip `data/` klasorune yerlestiriniz:
+Asagidaki dosyalari [IEEE DataPort](https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs) adresinden indirip `data/` klasorune yerlestiriniz:
 
-| Dosya | Aciklama |
-|-------|----------|
-| `Training.zip` | Siniflandirma egitim verisi (Fire / No_Fire) |
-| `Test.zip` | Siniflandirma test verisi |
-| `Images.zip` | Segmentasyon RGB goruntuleri |
-| `Masks.zip` | Segmentasyon binary maskeleri |
+| Dosya | Aciklama | Boyut |
+|-------|----------|:-----:|
+| `Training.zip` | Siniflandirma egitim verisi (Fire / No_Fire) | 1.2 GB |
+| `Test.zip` | Siniflandirma test verisi | 287 MB |
+| `Images.zip` | Segmentasyon RGB goruntuleri | 5.1 GB |
+| `Masks.zip` | Segmentasyon binary maskeleri | 9 MB |
 
 ## Proje Yapisi
 
