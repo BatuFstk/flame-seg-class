@@ -100,6 +100,27 @@ python src/evaluate.py --task classification
 python src/evaluate.py --task segmentation
 ```
 
+## Değerlendirme Sonucu metrikler
+
+<img width="1877" height="830" alt="segmen" src="https://github.com/user-attachments/assets/9f9e411a-3b1f-4a9a-a1fd-d72e258d385c" />
+
+<img width="1911" height="829" alt="segmen2" src="https://github.com/user-attachments/assets/675fb6e4-cc4d-46db-9ad8-87a57fa29ea1" />
+
+<img width="1900" height="768" alt="segmen3" src="https://github.com/user-attachments/assets/64f9cfe8-1663-4667-a0d3-4d9963484b2a" />
+
+<img width="757" height="512" alt="Accuracy" src="https://github.com/user-attachments/assets/65c294d1-b563-4fce-97b9-744993f7adcd" />
+
+<img width="731" height="504" alt="dice" src="https://github.com/user-attachments/assets/6e9435ce-4df8-42bb-834d-94ac567f42dd" />
+
+<img width="737" height="508" alt="IoU" src="https://github.com/user-attachments/assets/009131ad-6817-4951-b974-0c7e5c2fd1e7" />
+
+<img width="777" height="567" alt="Loss" src="https://github.com/user-attachments/assets/e714dcde-2570-416d-b90a-ebcd44add350" />
+
+<img width="736" height="32" alt="Epoch" src="https://github.com/user-attachments/assets/30a6a51c-ccfc-492e-9276-465753dfe0a1" />
+
+<img width="1681" height="901" alt="gradioarayüz" src="https://github.com/user-attachments/assets/b80a97aa-fe81-4b56-9ac3-b276cfd1de35" />
+
+
 ## Egitilmis Modeller
 
 Onceden egitilmis model dosyalari [Releases](../../releases) sayfasindan indirilebilir.
